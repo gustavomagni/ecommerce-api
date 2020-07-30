@@ -23,8 +23,8 @@ public class Produto {
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	@Column(name = "ID")
 	private Integer id;
-	@Column(name = "PET", nullable = false, length = 255)
-	private String pet;
+	@Column(name = "TIPO", nullable = false, length = 255)
+	private String tipo;
 	@Column(name = "CODIGO", nullable = false, length = 255)
 	private String codigo;
 	@Column(name = "MARCA", nullable = false, length = 255)
