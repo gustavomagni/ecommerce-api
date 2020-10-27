@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import br.com.service.it.repositorio.entidades.Cliente;
-import br.com.service.it.servico.ClienteService;
+import br.com.service.it.servicos.ClienteService;
 import lombok.NoArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 
